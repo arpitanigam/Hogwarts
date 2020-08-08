@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+<style>
+h2{
+  color:white;
+}
+ 
+.form-control {
+  
+  width: 30%;
+ height:25px;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem
+  margin:auto; 
+
+}
+h2{
+  padding:20px;
+}
+
+
+.select{
+  padding:50px;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-image: url("https://cdn.wallpapersafari.com/56/81/T1CAKt.jpg");
+  background-color: #cccccc;
+ height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.white{
+ 
+  text-align:center;
+ color:white;
+  font-weight:800;
+  
+}
+button{
+ font-family: 'Dancing Script', cursive; 
+ font-color:white;
+  cursor: pointer;
+
+}
+label{
+  font-family: 'Dancing Script', cursive;
+}
+</style>
+<body
+      <article class="white">
+<head><strong><h1 id="title">Hogwarts Enrollment Form</h1></strong></head></article>
+<p id="description">Your way to the magical world</p>
+<form id="survey-form">
+<label id="name-label">
+  <h2 id="name">Wizard's Name
+<input class="form-control" type="text" placeholder="Spell a Cast"></h2>
+  <label id="email-label">
+  <h2>Wizard's Letter Box Address
+<input id="email" type="text" class="form-control"placeholder="Yes, we still send letters"></h2>
+   <label id="number-label>
+  <h2 id="number">Wizard's ID Number
+<input class="form-control" type="text" placeholder="Enter Number"></h2>
+ <label for="Dropdown"> Preferred House</label><select class="form-control" name="House" id="Dropdown">
+  <option value="Gryffindor">Gryffindor</option>
+  <option value="Slytherin">Slytherin</option>
+  <option value="Ravenclaw">Ravenclaw</option>
+  <option value="Hufflepuff">Hufflepuff</option>
+</select>
+  </label>
+ <h2> Skills <input class="form-control" type="text" placeholder=""<h3>
+                                                                   <h2> Interests <input class="form-control" type="text" placeholder="Subjects"></h2>
+
+      <label>                                        <h3>Preferred Platform<div><label for="9 3/4">
+ <input type="radio" name="9 3/4">9 3/4</label></div> <div> <label>
+ <input type="radio" name="10 7/6">10 7/6</label></div> <div>
+<label> <input type="radio" name="8 3/5">8 3/5</label> </div> <div>
+ <label>                                   <input type="radio" name="6 3/4">6 3/4</label> </h4></div></h3>                      <label>                         <h3> Enter comments</h3>
+  <input class="form-control select" id="textarea" type="text" placeholder="Enter comments">
+</label>    
+      </section>
+         <section> <label>                                                                          
+                                                                                    <button type="submit"><strong> Submit</strong></button></label>
+               
+                      
+      </form>
+</body>
